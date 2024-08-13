@@ -1,0 +1,75 @@
+.Box{
+border: 1px solid black;
+height: 50vh;
+width: 80vw;
+border-radius: 20px;
+margin-left: 130px;
+margin-top: 50px;
+text-align: center;
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,0.9472163865546218) 18%, rgba(9,9,121,1) 92%);
+
+
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    /* background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
+background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(198,198,198,1) 100%);
+    
+}
+
+
+h1{
+    font-weight: bold ;
+    color: rgb(4, 6, 7);
+}
+
+.currency{
+    height: 40px;
+    width: 60px;
+    border-radius: 10px;
+}
+
+
+#input,#result{
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+#btn{
+    height: 40px;
+    width: 90px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #021e4d;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px powderblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+#btn:active{
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#scr2{
+    margin-left: 40px;
+}
+
+/* #scr1,#scr2,#input,#result{
+    background-color: rgb(245, 169, 169);
+} */
